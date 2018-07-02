@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EditorActivity">
+
+
+    <item
+        android:id="@+id/save_journal"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_save"
+        android:title="SAVE"/>
+
+
+    <item
+        android:id="@+id/delete_journal"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_delete"
+        android:title="DELETE"/>
+
+</menu>
